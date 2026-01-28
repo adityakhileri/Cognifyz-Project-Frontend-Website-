@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cognifyz Courses & Internships</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Cognifyz Technologies</h1>
+        <p class="tag">Programs & Internship Tracks</p>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="courses.html" class="active">Courses</a>
+        <a href="apply.html">Apply</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="courses-section">
+      <h2>Our Internship Programs</h2>
+      <p class="subtext">Explore specialized tracks designed to help you build hands-on industry skills.</p>
+
+      <div class="courses-grid">
+
+        <!-- Front-End -->
+        <div class="course-card">
+          <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=800&q=80" alt="Front-End Development">
+          <h3>Front-End Development</h3>
+          <p>Learn to craft interactive websites using HTML, CSS, JavaScript, and React.</p>
+          <button class="info-btn" data-course="frontend">More Info</button>
+        </div>
+
+        <!-- Back-End -->
+        <div class="course-card">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Back-End Development">
+          <h3>Back-End Development</h3>
+          <p>Build robust server-side systems using Node.js, Express, and MongoDB.</p>
+          <button class="info-btn" data-course="backend">More Info</button>
+        </div>
+
+        <!-- Full Stack -->
+        <div class="course-card">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80" alt="Full Stack Development">
+          <h3>Full Stack Development</h3>
+          <p>Master both front-end and back-end to create complete, dynamic web apps.</p>
+          <button class="info-btn" data-course="fullstack">More Info</button>
+        </div>
+
+        <!-- UI/UX -->
+        <div class="course-card">
+          <img src="https://images.unsplash.com/photo-1587614203976-365c74645e83?auto=format&fit=crop&w=800&q=80" alt="UI/UX Design">
+          <h3>UI/UX Design</h3>
+          <p>Design visually appealing and user-friendly digital interfaces using Figma.</p>
+          <button class="info-btn" data-course="uiux">More Info</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- === POPUPS === -->
+  <div id="frontend" class="modal">
+    <div class="modal-box">
+      <span class="close">&times;</span>
+      <h2>Front-End Development</h2>
+      <p><strong>Duration:</strong> 6 Weeks</p>
+      <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript, React</p>
+      <p><strong>Outcome:</strong> Build responsive and dynamic interfaces.</p>
+    </div>
+  </div>
+
+  <div id="backend" class="modal">
+    <div class="modal-box">
+      <span class="close">&times;</span>
+      <h2>Back-End Development</h2>
+      <p><strong>Duration:</strong> 6 Weeks</p>
+      <p><strong>Technologies:</strong> Node.js, Express, MongoDB</p>
+      <p><strong>Outcome:</strong> Create APIs and manage databases efficiently.</p>
+    </div>
+  </div>
+
+  <div id="fullstack" class="modal">
+    <div class="modal-box">
+      <span class="close">&times;</span>
+      <h2>Full Stack Development</h2>
+      <p><strong>Duration:</strong> 8 Weeks</p>
+      <p><strong>Technologies:</strong> React, Node.js, Express, MongoDB</p>
+      <p><strong>Outcome:</strong> Deploy full-featured web applications.</p>
+    </div>
+  </div>
+
+  <div id="uiux" class="modal">
+    <div class="modal-box">
+      <span class="close">&times;</span>
+      <h2>UI/UX Design</h2>
+      <p><strong>Duration:</strong> 4 Weeks</p>
+      <p><strong>Tools:</strong> Figma, Adobe XD, Miro</p>
+      <p><strong>Outcome:</strong> Design wireframes and prototypes with real-world projects.</p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>&copy; 2025 Cognifyz Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

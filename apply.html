@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apply — Cognifyz Internship</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Cognifyz Technologies</h1>
+        <p class="tag">Apply for Internship</p>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="apply.html" class="nav-link cta-btn">Apply</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="apply-section">
+      <h2>Internship Application Form</h2>
+      <p>Please fill the form below. After submitting you will see a confirmation message.</p>
+
+      <form id="applicationForm" class="form-card" novalidate>
+        <label>Full Name <input type="text" id="name" required></label>
+        <label>Email <input type="email" id="email" required></label>
+        <label>Phone <input type="tel" id="phone" required></label>
+        <label>College / University <input type="text" id="college" required></label>
+        <label>Course / Year <input type="text" id="course" required></label>
+        <label>Preferred Track
+          <select id="track" required>
+            <option value="">Select a track</option>
+            <option>Front-End Development</option>
+            <option>Back-End Development</option>
+            <option>Full Stack</option>
+            <option>UI/UX</option>
+          </select>
+        </label>
+        <label>Short Bio / Skills
+          <textarea id="bio" maxlength="300" placeholder="Briefly describe your skills and motivation"></textarea>
+        </label>
+        <label>Resume (optional) <input type="file" id="resume" accept=".pdf,.doc,.docx"></label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Submit Application</button>
+          <button type="button" id="saveDraft" class="btn secondary">Save Draft</button>
+        </div>
+      </form>
+
+      <div id="submitMessage" class="submit-message" hidden>
+        <h3>Application Submitted</h3>
+        <p>Thank you! Your application has been recorded.</p>
+        <button id="newApplication" class="btn">Submit Another</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Cognifyz Technologies</h4>
+        <p>123 Tech Park, Electronic City, Bengaluru</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Email: <a href="mailto:internships@cognifyz.com">internships@cognifyz.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2025 Cognifyz Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
